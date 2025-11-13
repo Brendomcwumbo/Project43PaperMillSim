@@ -1,0 +1,7 @@
+# Ignore temporary Isaac Sim files
+*.log
+*.pyc
+*.cache
+__pycache__/
+*.usd_preview_surface
+

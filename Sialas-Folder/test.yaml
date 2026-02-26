@@ -1,0 +1,26 @@
+format: isaac_grasp
+format_version: 1.0
+
+object_frame: /World/Cube
+gripper_frame: /World/Robotiq_2F_85_config_physics_mimic/Robotiq_2F_85
+
+grasps:
+   "grasp_0":
+      confidence: 1.0
+      position: [-0.1679029215371486, 4.674725310738062, -1.2814424118920178]
+      orientation: {w: 1.0, xyz: [0.0, 0.0, 0.0]}
+      cspace_position:
+         finger_joint: 0.8200605511665344
+         right_outer_knuckle_joint: 0.8203047513961792
+         left_inner_finger_joint: -0.8200497627258301
+         right_inner_finger_joint: 0.820420503616333
+         left_inner_finger_knuckle_joint: -0.8199933767318726
+         right_inner_finger_knuckle_joint: -0.8204241394996643
+      pregrasp_cspace_position:
+         finger_joint: -2.184660985449227e-08
+         right_outer_knuckle_joint: -2.2910326413771998e-10
+         left_inner_finger_joint: -2.879602334360243e-07
+         right_inner_finger_joint: 1.2189005929030827e-06
+         left_inner_finger_knuckle_joint: -1.6144912251547794e-07
+         right_inner_finger_knuckle_joint: 1.924213108850381e-07
+
